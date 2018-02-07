@@ -13,8 +13,9 @@ public class MenuTCP {
         client.Invio();
         server.Comunica();
         client.Ricevi();
-        server.Chiusura();
         client.Chiusura(); 
+        server.Chiusura();
+
     }
     
 }

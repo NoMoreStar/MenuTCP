@@ -34,7 +34,7 @@ public class ServerConnessioneTCP {
         app = df.format(prova);
     }
     public void Accendi() throws IOException{
-        sSocket = new ServerSocket(port);
+         sSocket = new ServerSocket(port);
         System.out.println("In attesa di connessioni!");
     }
     public void Connetti() throws IOException{
